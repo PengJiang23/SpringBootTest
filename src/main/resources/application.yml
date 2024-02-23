@@ -1,0 +1,12 @@
+#spring.mvc???
+spring:
+  mvc:
+    static-path-pattern: pic/**
+  web:
+    resources:
+      static-locations: file:d:/users/jp/desktop/
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3036/world?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
